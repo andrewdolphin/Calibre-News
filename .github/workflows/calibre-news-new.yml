@@ -141,7 +141,6 @@ jobs:
           done < <(find "$output" -type f -name "*.${ext,,}" -print0)
           echo "All jobs done"
       - name: Storing Ebook
-        if: ${{ success() }}
         uses: actions/upload-artifact@v4
         with:
           name: Calibre-News-Delivery
