@@ -20,17 +20,13 @@ def classes(classes):
 
 class Guardian(BasicNewsRecipe):
 
-    title = u'Custom - The Guardian and The Observer'
-    is_observer = False
+    title = u'The Guardian'
     base_url = 'https://www.theguardian.com/uk'
-    if date.today().weekday() == 6:
-        is_observer = True
-        base_url = 'https://www.theguardian.com/observer'
 
     __author__ = 'Kovid Goyal'
     language = 'en_GB'
 
-    oldest_article = 7
+    oldest_article = 2
     max_articles_per_feed = 100
     compress_news_images = True
     scale_news_images =  (200, 200)
