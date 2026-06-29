@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+# vim:fileencoding=utf-8
+from calibre.web.feeds.news import BasicNewsRecipe
+
+class AdvancedUserRecipe1782734439(BasicNewsRecipe):
+    title          = 'Autocar'
+    oldest_article = 7
+    max_articles_per_feed = 100
+    auto_cleanup   = True
+    compress_news_images = True
+    scale_news_images_to_device = False
+    compress_news_images_max_size = 40
+    scale_news_images = (400,400)
+
+
+    feeds          = [
+        ('autocar', 'https://www.autocar.co.uk/rss'),
+    ]
