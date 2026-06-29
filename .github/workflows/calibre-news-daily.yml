@@ -1,5 +1,5 @@
-name: Calibre News Delivery
-run-name: 'Calibre News Delivery: ${{ github.ref_name }}'
+name: Calibre News Delivery - Daily
+run-name: 'Calibre News Delivery Daily: ${{ github.ref_name }}'
 
 on:
   workflow_dispatch:
