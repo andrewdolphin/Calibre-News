@@ -17,7 +17,7 @@ def classes(classes):
 
 
 class ArsTechnica(BasicNewsRecipe):
-    title = u'Custom Ars Technica'
+    title = u'Ars Technica'
     language = 'en'
     __author__ = 'Darko Miletic, Sujata Raman, Alexis Rohou, Tom Sparks'
     description = 'Ars Technica: Serving the technologist for 1.2 decades'
